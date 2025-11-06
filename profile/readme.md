@@ -60,7 +60,7 @@ Ready to build your first agent? It's easy to get started.
 
 OpenHive is built by the community, for the community. We welcome contributors of all levels!
 
-- 💬 **Join our [Discord Server](https://discord.gg/y4K8V7NzFD)** to ask questions, share your projects, and chat with the team.
+- 💬 **Join our [Discord Server](https://discord.gg/qsfG2tJ6mJ)** to ask questions, share your projects, and chat with the team.
 - 🐞 **Report Bugs** by creating an issue in the relevant repository.
 - 💡 **Suggest Features** or improvements by starting a discussion.
 - ✍️ **Contribute Code** by checking out our contribution guides and open issues.
