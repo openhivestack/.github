@@ -37,9 +37,7 @@ Our platform is designed for a developer-first experience, giving you the tools 
 | Component | Description |
 | :--- | :--- |
 | **[CLI](https://github.com/openhivestack/cli)** | The command center. `npx @open-hive/cli` to create, test, and publish agents. |
-| **[SDK](https://github.com/openhivestack/a2a-js-sdk)** | Type-safe SDKs to build A2A-compliant agents with ease. |
 | **[Registry](https://www.openhive.sh)** | The central hub for agent discovery and management. |
-| **[Cloud](https://docs.openhive.sh/docs/guides/deployment)** | Serverless infrastructure to deploy your agents instantly. |
 
 ## ✨ Getting Started
 
@@ -60,7 +58,7 @@ Build your first agent in seconds:
     npx @open-hive/cli publish
     ```
 
-👉 **[Read the Full Documentation](https://docs.openhive.sh)**
+👉 **[Read the Full Documentation](https://www.openhive.sh/docs)**
 
 ## 🤝 Community & Support
 
