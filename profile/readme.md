@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/218705333?s=400&u=a064fae0b376dc9366ce11db88177682ca749cc5&v=4" alt="OpenHive Logo Banner" width="100" height="100">
   <br>
-  <h1>The Open-Source Protocol for Autonomous AI Agent Networks</h1>
+  <h1>The Universal Registry for the Agentic Web</h1>
   <p>
-    Build, connect, and deploy intelligent agents that can discover and collaborate with each other.
+    The foundational layer for autonomous AI agents. Build, register, and discover agents that collaborate seamlessly.
   </p>
   <p>
     <a href="https://github.com/openhivestack/cli/blob/main/LICENSE.md">
@@ -22,47 +22,50 @@
 
 ## 👋 Welcome to OpenHive
 
-Most AI agents today work in isolation, unable to collaborate, discover, or share their capabilities. **OpenHive** is an open-source project dedicated to solving this problem. We provide a protocol, tools, and infrastructure to help you build powerful, interconnected networks of autonomous AI agents.
+OpenHive is the **Universal Registry** and **Foundational Layer** for the Agentic Web. We provide the infrastructure and standards to enable a truly interoperable ecosystem of autonomous AI agents.
 
-Whether you're a hobbyist building a personal assistant or a company developing complex automation workflows, OpenHive provides the foundation for a new generation of collaborative AI.
+Unlike closed gardens, OpenHive is built on open standards, allowing developers to:
+- **Build** agents using any language or framework.
+- **Register** them in a central, federation-ready registry.
+- **Discover** and connect with other agents dynamically.
+- **Deploy** to our managed cloud or your own infrastructure.
 
-## 🚀 The OpenHive Ecosystem
+## 🚀 The OpenHive Stack
 
-Our ecosystem is composed of several key repositories, each designed to provide a seamless developer experience.
+Our platform is designed for a developer-first experience, giving you the tools to build and scale.
 
-| Repository                                                               | Description                                                                                                                                        |
-| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ⚙️ **[CLI](https://github.com/openhivestack/cli)**                       | The command center for your agent workflow. Scaffold new projects, run local agents, interactively test capabilities, and publish to the registry. |
-| 📦 **[SDKs (Node.js & Python)](https://github.com/openhivestack?q=sdk)** | Language-specific toolkits to build H.I.V.E. protocol-compliant agents in just a few lines of code.                                                |
-| 📚 **[Documentation](https://github.com/openhivestack/documentation)**   | The central source of truth. Here you'll find the H.I.V.E. Protocol specification, platform guides, and quick-start tutorials.                     |
-| ☁️ **[Platform](https://www.openhive.sh)**             | The official implementation of the OpenHive agent registry and cloud platform, enabling agent discovery and management.                            |
+| Component | Description |
+| :--- | :--- |
+| **[CLI](https://github.com/openhivestack/cli)** | The command center. `npx @open-hive/cli` to create, test, and publish agents. |
+| **[SDK](https://github.com/openhivestack/a2a-js-sdk)** | Type-safe SDKs to build A2A-compliant agents with ease. |
+| **[Registry](https://www.openhive.sh)** | The central hub for agent discovery and management. |
+| **[Cloud](https://docs.openhive.sh/docs/guides/deployment)** | Serverless infrastructure to deploy your agents instantly. |
 
-## ✨ Getting Started in 3 Steps
+## ✨ Getting Started
 
-Ready to build your first agent? It's easy to get started.
+Build your first agent in seconds:
 
-1.  **Install the CLI:**
-
+1.  **Create a new agent:**
     ```bash
-    npm install -g @open-hive/cli
+    npx @open-hive/cli create my-agent
     ```
 
-2.  **Scaffold a New Agent:**
-
+2.  **Start it locally:**
     ```bash
-    hive create agent my-first-agent
+    cd my-agent && npm run dev
     ```
 
-3.  **Read the Docs:**
-    Dive into our **[Quick Start Guide](https://docs.openhive.sh/docs/core/quick-start)** to run your agent and learn the core concepts.
+3.  **Publish to the registry:**
+    ```bash
+    npx @open-hive/cli publish
+    ```
 
-## 🤝 Join the Community & Contribute
+👉 **[Read the Full Documentation](https://docs.openhive.sh)**
 
-OpenHive is built by the community, for the community. We welcome contributors of all levels!
+## 🤝 Community & Support
 
-- 💬 **Join our [Discord Server](https://discord.gg/qsfG2tJ6mJ)** to ask questions, share your projects, and chat with the team.
-- 🐞 **Report Bugs** by creating an issue in the relevant repository.
-- 💡 **Suggest Features** or improvements by starting a discussion.
-- ✍️ **Contribute Code** by checking out our contribution guides and open issues.
+- 💬 **[Discord](https://discord.gg/qsfG2tJ6mJ)** - Chat with the team and other developers.
+- 🐞 **[GitHub Issues](https://github.com/openhivestack/openhive/issues)** - Report bugs or request features.
+- 🐦 **[Twitter/X](https://x.com/openhivestack)** - Follow us for updates.
 
-We're excited to see what you'll build!
+We can't wait to see what you build!
